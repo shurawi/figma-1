@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Montserrat Regular";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Montserrat Regular.woff2") format("woff2"), url("../fonts/Montserrat Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat Medium";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Montserrat Medium.woff2") format("woff2"), url("../fonts/Montserrat Medium.woff") format("woff");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  font-family: "Montserrat Regular", sans-serif;
+  overflow-x: hidden;
+}
+
+.wrap {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul,
+img {
+  margin: 0;
+  padding: 0;
+}
