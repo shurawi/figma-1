@@ -2,43 +2,41 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: "Montserrat Regular";
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-  src: url("../fonts/Montserrat Regular.woff2") format("woff2"), url("../fonts/Montserrat Regular.woff") format("woff");
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3c425f;
 }
 
-@font-face {
-  font-family: "Montserrat Medium";
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-  src: url("../fonts/Montserrat Medium.woff2") format("woff2"), url("../fonts/Montserrat Medium.woff") format("woff");
+.visually-hidden {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+html,
+body {
+  min-width: 1440px;
+  min-height: 980px;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  min-width: 320px;
-  font-family: "Montserrat Regular", sans-serif;
-  overflow-x: hidden;
+  /* Временно для сетки */
+  background-image: url('https://assets.htmlacademy.ru/content/skills/6/case-01/inde.jpg');
+  background-size: 1440px auto;
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 
-.wrap {
-  max-width: 1300px;
+.container {
+  width: 1440px;
   margin: 0 auto;
-}
-
-h2,
-h3,
-p {
-  margin: 0;
-}
-
-ul,
-img {
-  margin: 0;
-  padding: 0;
 }
