@@ -1,0 +1,90 @@
+.nav {
+  grid-area: navigation;
+
+  display: grid;
+  grid-template-rows:
+    80px
+    1fr
+    auto;
+
+  background-color: #ffffff;
+  border-right: 1px solid #b4bef0;
+}
+
+.nav__logo {
+  margin: 24px 30px 15px;
+}
+
+.nav__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.nav__list--tools {
+  margin-bottom: 10px;
+}
+
+.nav__item--active {
+  background-color: #f1f3fe;
+}
+
+.nav__link {
+  position: relative;
+  display: block;
+  padding: 20px 25px 20px 63px;
+
+  font-size: 16px;
+  line-height: 20px;
+  color: #3c425f;
+  text-decoration: none;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 30px;
+  }
+}
+
+.nav__link--cab::before {
+  background-image: url("../img/cabinet.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav__link--class::before {
+  background-image: url("../img/class.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav__link--book::before {
+  background-image: url("../img/book.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav__link--home::before {
+  background-image: url("../img/home.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav__link--exam::before {
+  background-image: url("../img/exam.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav__link--tools::before {
+  background-image: url("../img/tools.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav__link--active {
+  font-weight: 500;
+  color: #576bcc;
+}
