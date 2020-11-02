@@ -1,0 +1,43 @@
+.footer {
+  grid-area: footer;
+
+  display: grid;
+  grid-template-columns: 280px 1fr 280px;
+
+  background-color: #3c425f;
+}
+
+.footer__copyright {
+  margin: 20px 10px 10px 30px;
+
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #aaaaaa;
+}
+
+.footer__logo {
+  margin: 20px 0;
+  text-align: center;
+
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #aaaaaa;
+  text-decoration: none;
+}
+
+.footer__detail {
+  margin: 20px 30px 10px 10px;
+  text-align: right;
+
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #aaaaaa;
+}
+
+.footer__link {
+  color: #aaaaaa;
+  text-decoration: none;
+}
