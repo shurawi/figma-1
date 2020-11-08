@@ -6,7 +6,6 @@
   padding: 0;
   margin: 0;
   list-style: none;
-
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
@@ -14,19 +13,14 @@
 
 .offers__item {
   display: grid; /* для выравнивания ссылки */
-  grid-template-rows:
-    auto
-    1fr
-    auto;
+  grid-template-rows: auto 1fr auto;
   padding: 20px 30px;
-
   background-color: #ffffff;
   box-shadow: 0 1px 4px rgba(60, 66, 95, 0.2);
   border-radius: 4px;
 }
 .offers__title {
   margin: 0;
-
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;

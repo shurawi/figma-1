@@ -1,8 +1,6 @@
 .contact {
   grid-area: contacts;
-
   padding: 20px 0 20px 30px;
-
   background-color: #ffffff;
   box-shadow: 0 1px 4px rgba(60, 66, 95, 0.2);
   border-radius: 4px;
@@ -10,7 +8,6 @@
 
 .contact__title {
   margin: 0 0 10px 0;
-
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
@@ -21,7 +18,6 @@
   padding: 5px 0 0 0;
   margin: 0;
   list-style: none;
-
   border-top: 1px solid #e4e8fc;
 }
 
@@ -32,11 +28,8 @@
 .contact__link {
   display: grid;
   grid-template-columns: 40px auto;
-  grid-template-rows:
-    auto
-    auto;
+  grid-template-rows: auto auto;
   grid-column-gap: 12px;
-
   text-decoration: none;
   font-weight: 300;
   font-size: 14px;

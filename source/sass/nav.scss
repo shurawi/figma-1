@@ -1,12 +1,7 @@
 .nav {
   grid-area: navigation;
-
   display: grid;
-  grid-template-rows:
-    80px
-    1fr
-    auto;
-
+  grid-template-rows: 80px 1fr auto;
   background-color: #ffffff;
   border-right: 1px solid #b4bef0;
 }
@@ -33,7 +28,6 @@
   position: relative;
   display: block;
   padding: 20px 25px 20px 63px;
-
   font-size: 16px;
   line-height: 20px;
   color: #3c425f;
